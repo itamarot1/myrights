@@ -1,0 +1,75 @@
+[
+  {
+    "id": "worker_001",
+    "name": "דמי מחלה",
+    "description": "תשלום דמי מחלה לעובדים - 18 ימים בשנה, החל מהיום השני 50% ומהיום הרביעי 100%",
+    "category": "עבודה ותעסוקה",
+    "subcategory": "זכויות עובדים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 67,
+      "employment_status": ["שכיר"],
+      "work_months_minimum": 1
+    },
+    "amount_estimation": "עד 18 ימי שכר בשנה",
+    "priority": "high"
+  },
+  {
+    "id": "worker_002", 
+    "name": "דמי הבראה",
+    "description": "דמי הבראה שנתיים לעובדים - 378 ש״ח ליום לפי ותק",
+    "category": "עבודה ותעסוקה",
+    "subcategory": "זכויות עובדים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 67,
+      "employment_status": ["שכיר"],
+      "work_years_minimum": 1
+    },
+    "amount_estimation": "378-1,890 ש״ח לשנה",
+    "priority": "medium"
+  },
+  {
+    "id": "worker_003",
+    "name": "חופשה שנתית",
+    "description": "זכות לחופשה שנתית בתשלום לפי ותק - 7-28 ימים בשנה",
+    "category": "עבודה ותעסוקה", 
+    "subcategory": "זכויות עובדים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 67,
+      "employment_status": ["שכיר"]
+    },
+    "amount_estimation": "7-28 ימי שכר בשנה",
+    "priority": "high"
+  },
+  {
+    "id": "worker_004",
+    "name": "פיצויי פיטורים",
+    "description": "פיצויים בעת סיום עבודה - חודש שכר לכל שנת עבודה",
+    "category": "עבודה ותעסוקה",
+    "subcategory": "זכויות עובדים", 
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 67,
+      "employment_status": ["שכיר", "לשעבר שכיר"],
+      "work_years_minimum": 1
+    },
+    "amount_estimation": "חודש שכר לכל שנת עבודה",
+    "priority": "high"
+  },
+  {
+    "id": "worker_005",
+    "name": "הודעה מוקדמת",
+    "description": "תשלום הודעה מוקדמת בפיטורים - יום לכל חודש בשנה הראשונה",
+    "category": "עבודה ותעסוקה",
+    "subcategory": "זכויות עובדים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 67,
+      "employment_status": ["שכיר", "לשעבר שכיר"]
+    },
+    "amount_estimation": "1-30 ימי שכר",
+    "priority": "medium"
+  }
+]

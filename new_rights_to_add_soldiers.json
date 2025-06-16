@@ -1,0 +1,80 @@
+[
+  {
+    "id": "soldier_001",
+    "name": "מלגת ממדים ללימודים",
+    "description": "מימון מלא של שכר לימוד לתואר ראשון ללוחמים משוחררים - עד 11,653 ש״ח לשנה",
+    "category": "זכויות ייחודיות לאוכלוסיות ספציפיות",
+    "subcategory": "חיילים משוחררים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 30,
+      "military_or_national_service": ["שירות צבאי (צה\"ל)"],
+      "service_type": ["לוחם", "תומך לחימה"],
+      "education": ["בגרות", "תואר ראשון"]
+    },
+    "amount_estimation": "11,653 ש״ח לשנה למשך 3-4 שנים",
+    "priority": "high"
+  },
+  {
+    "id": "soldier_002",
+    "name": "מענק שחרור",
+    "description": "מענק חד פעמי לחיילים משוחררים לפי משך ותכניות השירות",
+    "category": "זכויות ייחודיות לאוכלוסיות ספציפיות", 
+    "subcategory": "חיילים משוחררים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 30,
+      "military_or_national_service": ["שירות צבאי (צה\"ל)"],
+      "service_length_years": 2
+    },
+    "amount_estimation": "משתנה לפי תקופת השירות",
+    "priority": "medium"
+  },
+  {
+    "id": "soldier_003", 
+    "name": "מלגת IMPACT",
+    "description": "מלגת לימודים לחיילים משוחררים מהמערך הלוחם - תמיכה כלכלית ללימודים",
+    "category": "זכויות ייחודיות לאוכלוסיות ספציפיות",
+    "subcategory": "חיילים משוחררים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 35,
+      "military_or_national_service": ["שירות צבאי (צה\"ל)"],
+      "service_type": ["לוחם"],
+      "education": ["בגרות", "תואר ראשון", "תואר שני ומעלה"]
+    },
+    "amount_estimation": "אלפי שקלים לשנה",
+    "priority": "high"
+  },
+  {
+    "id": "soldier_004",
+    "name": "מענק לחייל משוחרר בעבודה נדרשת",
+    "description": "מענק מביטוח לאומי לחיילים משוחררים שעובדים במקצועות מועדפים",
+    "category": "זכויות ייחודיות לאוכלוסיות ספציפיות",
+    "subcategory": "חיילים משוחררים", 
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 30,
+      "military_or_national_service": ["שירות צבאי (צה\"ל)"],
+      "employment_status": ["שכיר"],
+      "preferred_occupation": true
+    },
+    "amount_estimation": "מענק חודשי משתנה",
+    "priority": "medium"
+  },
+  {
+    "id": "soldier_005",
+    "name": "זכויות לחיילים בודדים משוחררים",
+    "description": "תמיכות מיוחדות לחיילים בודדים משוחררים כולל סיוע בדיור ופרנסה",
+    "category": "זכויות ייחודיות לאוכלוסיות ספציפיות",
+    "subcategory": "חיילים משוחררים",
+    "eligibility_criteria": {
+      "age_min": 18,
+      "age_max": 30,
+      "military_or_national_service": ["שירות צבאי (צה\"ל)"],
+      "lone_soldier": true
+    },
+    "amount_estimation": "תמיכות משתנות",
+    "priority": "high"
+  }
+]
